@@ -1,0 +1,99 @@
+/* nav custom style */
+.navbar-nav .nav-item{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+	padding-left: 50px;
+    
+}
+
+.navbar-nav .nav-item .nav-link{
+    color: black;
+}
+.navbar-brand .navbar-text
+{
+    font-weight: 800;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.subtext{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+/* custom carousel */
+.carousel-item {
+	height: 100vh;
+	min-height: 300px;
+}
+.carousel-caption {
+	bottom: 220px;
+	z-index: 2;
+}
+.carousel-caption h5 {
+	font-size: 45px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 25px;
+}
+.carousel-caption p {
+	width: 60%;
+	margin: auto;
+	font-size: 18px;
+	line-height: 1.9;
+}
+.carousel-inner:before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.7);
+	z-index: 1;
+}
+/*  */
+.section-padding
+{
+    padding: 100px 0;
+}
+/*  */
+.lead{
+    font-size: 20px;
+}
+.fa-solid{
+    font-size: 40px;
+}
+.fa-brands{
+    font-size: 25px;
+}
+.w-100 {
+	height: 100vh;
+}
+@media only screen and (max-width: 767px) {
+	.navbar-nav {
+		text-align: center;
+	}
+	.carousel-caption {
+		bottom: 125px;
+	}
+	.carousel-caption h5 {
+		font-size: 27px;
+	}
+	.carousel-caption a {
+		padding: 10px 15px;
+		font-size: 15px;
+	}
+	
+	.carousel-caption p {
+		width: 100%;
+		line-height: 1.6;
+		font-size: 12px;
+	}
+	.about-text {
+		padding-top: 50px;
+	}
+	.card {
+		margin-bottom: 30px;
+	}
+}
